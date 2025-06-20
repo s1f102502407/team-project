@@ -41,9 +41,17 @@ h1 {
 }
 
 .shop1-image {
-    width: 70%;
+    width: 30%;
     text-align: center;
     margin-top: 120px;
+    position: absolute;
+    /* 横方向中央。 */
+    left: 50%;
+    /* 縦方向 少し上 (例: 40%) */
+    top: 40%;
+    /* 画像のど真ん中で位置あわせ */
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .shop1-image img {
