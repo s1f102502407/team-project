@@ -8,6 +8,25 @@ h1 {
     font-size: 80px;
     margin-top: 10px;
     font-weight: 200;
+    position: relative;
+    background: linear-gradient(200deg, #f37335 100%);
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 20px;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 220px;
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: -1;
 }
 
 .container {
@@ -24,6 +43,7 @@ h1 {
 .list-title {
     font-size: 32px;
     margin-bottom: 30px;
+    background: linear-gradient(120deg, #fdc830 100%);
 }
 
 .sidebar ul {
@@ -41,13 +61,37 @@ h1 {
     color: #000;
 }
 
-.main-image {
+.main-image1 {
     width: 70%;
     text-align: center;
     margin-top: 120px;
 }
 
-.main-image img {
+.main-image1 {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main-image2 {
+    width: 70%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main-image2 {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main-image3 {
+    width: 70%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main-image3 {
     width: 300px;
     height: 200px;
     object-fit: cover;

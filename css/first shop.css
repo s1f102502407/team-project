@@ -9,6 +9,7 @@ h1 {
     font-size: 56px;
     font-weight: 300;
     margin: 20px 0 0 40px;
+     background: linear-gradient(200deg, #f37335 100%);
 }
 
 .shop-info {
@@ -18,7 +19,7 @@ h1 {
 }
 
 .shop-left {
-    width: 50%;
+    width: 70%;
     margin-left: 48px;
     display: flex;
     flex-direction: column;
@@ -40,7 +41,7 @@ h1 {
     justify-content: flex-end;
 }
 
-.shop1-image {
+.shop1-image1 {
     width:40%;
     text-align: center;
     margin-top: 1px;
@@ -54,3 +55,10 @@ h1 {
     text-align: center;
 }
 
+.shop1-image2 {
+     width:40%;
+     text-align: center;
+      margin-top: 100px;
+     position: absolute;
+     left: 50%;
+}    
